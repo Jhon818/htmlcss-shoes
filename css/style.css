@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Anton', sans-serif;
+}
+
 .box{
     position: relative;
     width: 100%;
@@ -24,15 +28,28 @@
 }
 
 .overlay{
+    text-align: center;
     width: 50%;
     height: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( - 50% , -50% );
-    color:blue;
+    transform: translate( -50% ,-50% );
+    color:yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 10px;
 }
 
 img{
     height: 40vh;
+}
+
+#green{
+    color: green;
+}
+
+nav{
+    position: fixed;
+    width: 50vh;
 }
